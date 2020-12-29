@@ -1,0 +1,214 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 1px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.table1 {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    background-color: rgb(213, 220, 187);
+    padding: 20px;
+}
+
+#H, #N, #O, #F, #Cl, #Br, #I {
+    background-color: #d1eaa3;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#H:hover, #N:hover,#O:hover,#F:hover,#Cl:hover,#Br:hover,#I:hover {
+    background-color: #a0de2c;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+
+}
+
+
+#Li,#Na,#K,#Rb,#Cs,#Fr {
+    background-color: #dbc6eb;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#Li:hover, #Na:hover, #Rb:hover, #Cs:hover, #Fr:hover {
+    background-color: #b277e6;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+}
+
+#Be, #Mg, #Ca,#Sr,#Ba, #Ra {
+    background-color: #98caeb;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#Be:hover, #Mg:hover, #Ca:hover, #Sr:hover, #Ba:hover, #Ra:hover {
+
+    background-color: #439ad3;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+}
+
+#Sc, #Ti, #V, #Y,#Hf,#Rf,#Zr,#Nb,#Ta,#Db,#Sg,#Ag,#Au,#Rh,
+#Mt,#Ds,#Rg,#Bh,#W,#Re,#Hs,#Ir,#Pd,#Co,#Ni,#Cu,#Zn,#Cd,
+#Cr,#Fe,#Ru,#Os,#Tc,#Mn,
+#Pt,#Hg,
+#Cn,
+#Mo {
+    background-color: #e4a17c;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#Sc:hover,#Cr:hover,#Ag:hover,#Rg:hover,#Au:hover,#Rh:hover,#Rg:hover,#Ti:hover,
+#V:hover,#Y:hover,#Hf:hover,#Rf:hover,#Zr:hover,#Nb:hover,
+#Ta:hover,#Db:hover,#Sg:hover,#Bh:hover,#W:hover,#Re:hover,
+#Hs:hover,#Ir:hover,#Pd:hover,#Co:hover,#Ni:hover,#Cu:hover,#Zn:hover,#Cd:hover,
+#Fe:hover,#Ru:hover,#Os:hover,#Tc:hover,#Mn:hover,#Pt:hover,#Hg:hover,#Cn:hover,
+#Mo:hover {
+    background-color: #e46a28;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+
+}
+
+#Mt,
+#Ds,
+#Rg,
+#Nh,
+#Fl,
+#Mc,
+#Lv,
+#Ts,
+#Og {
+    background-color: #9c98eb;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#Mt:hover,
+#Ds:hover,
+#Rg:hover,
+#Nh:hover,
+#Fl:hover,
+#Mc:hover,
+#Lv:hover,
+#Ts:hover,
+#Og:hover {
+    background-color: #524bdf;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+
+}
+
+.Lath {
+
+    background-color: #eb98e1;
+    border: 1px solid black;
+    transition: transform 0.1s;
+
+}
+
+.Lath:hover {
+    background-color: #ee43da;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+
+}
+
+.Ac {
+
+    background-color: #da698b;
+    border: 1px solid black;
+    transition: transform 0.1s;
+
+}
+
+.Ac:hover {
+    background-color: #b62752;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+
+}
+
+#He,
+#Ne,
+#Ar,
+#Kr,
+#Xe,
+#Ar,
+#Rn {
+    background-color: #97e8b8;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#He:hover,
+#Ne:hover,
+#Ar:hover,
+#Kr:hover,
+#Xe:hover,
+#Ar:hover,
+#Rn:hover {
+    background-color: #34df78;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+    
+}
+
+#B,#Si,#Ge,#As,#Sb,#Te,#At {
+    background-color: #7ea3e3;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#B:hover,#Si:hover,#Ge:hover,#As:hover,#Sb:hover,#Te:hover,#At:hover {
+    background-color:  #286ce1;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+}
+
+#C,#P,#S,#Se {
+    background-color: #e37e7e;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#C:hover,#P:hover,#S:hover,#Se:hover {
+    background-color: #da2929;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+}
+
+#Al,#Ga,#In,#Sn, #Tl,#Pb,#Bi,#Po {
+    background-color: #bb7ee3;
+    border: 1px solid black;
+    transition: transform 0.1s;
+}
+
+#Al:hover,#Ga:hover,#In:hover,#Sn:hover, #Tl:hover,#Pb:hover,#Bi:hover,#Po:hover {
+    background-color: #a444e4;
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale;
+    transform: scale(1.5);
+}
+
