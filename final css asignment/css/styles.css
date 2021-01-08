@@ -74,7 +74,7 @@ h1{
 h1 {
     width: auto;
     text-align: center;
-    margin: 20px;
+
 
 }
 
@@ -83,8 +83,9 @@ h1 {
     width: 40%;
     height: auto;
     padding: 30px;
+    padding-top: 70px;
     margin: auto;
-        text-align: center;
+    text-align: center;
 
 }
 
@@ -111,7 +112,7 @@ h1 {
 
 }
 
-h2 {
+h1 {
     color: #19456b;
     text-align: center;
     margin: 30px;
@@ -128,7 +129,7 @@ h2 {
 
 }
 
-  #advantages>h2:before {
+  #advantages>h1:before {
     color: #f00000;
     content: "OUR ";
   }
@@ -199,18 +200,22 @@ background-color: #e7d9ea;
 text-align: center;
 
 }
-.h1-packages, .h4-reviews {
+#packages>h1:before {
+    color: #f00000;
+    content: "AFFORDABLE ";
+  }
+.h1-packages, .h4-reviews, .h1-skills{
 
     color: #19456b;
     text-align: center;
-    margin: 30px;
+    margin: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    margin-top: 8%;
+    margin-top: 5%;
 
 }
 
-.p-packages, .p-contact, .p-reviews, .p-skills  {
+.p-packages,  .p-reviews, .p-skills  {
     width: auto;
     margin: auto;
     color:#3f464b;
@@ -231,7 +236,7 @@ text-align: center;
 }
 
   /* ABOUT US */
-  #about {
+  #About {
 
     padding: 20px;
     height: auto;
@@ -239,6 +244,10 @@ text-align: center;
 
 
     }
+    #About>h1:before {
+        color: #f00000;
+        content: "ABOUT ";
+      }
     .about-h1 {
         position: absolute;
         z-index: -1;
@@ -294,7 +303,11 @@ text-align: center;
         margin-bottom: 10px; 
         
     }
-    .h1-services {
+    #services>h1:before {
+        color: #f00000;
+        content: "OUR ";
+      }
+    .h1-services, .h1-contact {
         color: #19456b;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
@@ -347,6 +360,11 @@ text-align: center;
   
 }
 
+#portfolio h1:before {
+    color: #4CC790;
+    content: "OUR ";
+  }
+
 .h1-portfolio {
     color: #f7f7f7;
     text-align: center;
@@ -384,7 +402,7 @@ text-align: center;
 .img-portfolio{
         width: 180px;
         height: 180px;
-        background-color:rgb(199, 212, 222);
+        background-color:#4CC790;
         
       
 }
@@ -396,6 +414,11 @@ text-align: center;
 }
 
 /* PROCESS */
+
+#process h1:before {
+    color: #f02400;
+    content: "OUR ";
+  }
 
 .fa-text-process  {
     color: #16c79a;
@@ -495,6 +518,11 @@ li .progress-circle::after {
     background-color: #e7d9ea;
     text-align: center;
 }
+#reviews h1:before {
+    color: #f02400;
+    content: "PEOPLE ";
+  }
+
 
 .img-reviews {
 
@@ -517,6 +545,10 @@ display: inline;
 #contact {
     background-color: #16c79a;
 }
+#contact> h1:before {
+    color: #f02400;
+    content: "OUR ";
+  }
 
     .social ul {
         text-align: right;
@@ -545,11 +577,26 @@ display: inline;
                 text-align: center;
             }
 
+            .p-contact {
+                width: 60px;
+    margin: 10%;
+    color: #3f464b;
+    margin-bottom: 30px;
+    text-align: center;
+    display: inline;
+    float: center;
+            }
+
          /* OUR SKILLS    */
 
          #skills {
              text-align: center;
          }
+
+         #skills> h1:before {
+            color: #f02400;
+            content: "OUR ";
+          }
 
     
          .flex-wrapper {
@@ -616,7 +663,10 @@ display: inline;
 
             /* #START NEW PROJECT */
      
-
+            #newsletter h1:before {
+                color: #ed6b54;
+                content: "START ";
+              }
 
             .newsletter-block {
                 background-color: #5b86ab;
