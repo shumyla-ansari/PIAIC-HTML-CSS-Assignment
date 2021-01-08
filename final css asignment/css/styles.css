@@ -1,0 +1,230 @@
+  /* Modify the background color */ 
+          
+  .navbar-custom { 
+    background-color:#19456b; 
+    padding-bottom: 4.5 rem;
+} 
+/* Modify brand and text color */ 
+  
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: #ffffff8c;
+    padding-bottom: 4.5 rem;
+} 
+
+.navbar-brand > img {
+    margin: 20px;
+}
+
+#title {
+    
+    height: auto;
+    width: auto;
+    background-color: #16c79a;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #19456b;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* CAROUSEL SECTION  */
+.testimonials{
+    background-image: url("../images/svg.png");
+    background-color: #e7d9ea;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.carousel{
+    display: block;
+}
+.carousel-indicators {
+    position: 300px;
+}
+.carousel-indicators li{
+    justify-content: center;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        
+      }
+
+        carousel-indicators li, .carousel-indicators li.active {
+            margin: 0px 10px !important;
+      }
+
+
+h1 {
+    width: auto;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.carousel-item>p {
+    margin-top: 20px;
+    width: 40%;
+    height: auto;
+    padding: 30px;
+    margin: auto;
+        text-align: center;
+
+}
+
+.btn-readmore-primary {
+    background-color: #16c79a;
+    border-color: #16c79a;
+    text-align: center;
+    margin-left: 46%;
+    margin-bottom: 80px;
+    display: inline;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-readmore-primary:hover {
+    background-color: #19456b;
+}
+
+/* ADVANTAGES SECTION */
+
+#advantages {
+    padding: 4% 12%;
+
+}
+
+#advantages  >h2 {
+    color: #19456b;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    
+
+}
+#advantages >p {
+    color: #dda8e9;
+    text-align: center;
+    margin: 0px 200px;
+    width: fit-content;
+
+}
+
+  #advantages>h2:before {
+    color: #f00000;
+    content: "OUR ";
+  }
+
+  .row {
+      margin: 0 30px;
+      align-items: center;
+      padding: 10px;
+      margin:10px
+  }
+
+  /* FEATURES SECTION */
+
+  #features {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .feature-box {
+      overflow: hidden;    
+      margin: 20px 20px 30px; 
+
+  }
+
+  .feature-box > p {
+      font-size: 13px;
+      width: 150px;
+      margin: auto;
+      color:#7c858e;
+      margin-bottom: 30px;
+     
+  }
+
+  .feature-box > h4 {
+      font-size: 15px;
+  }
+  .round {
+    background-color: rgb(125, 165, 182, 0.2);
+    border-radius: 50%;
+    display:inline-block;
+    z-index: 5;
+    padding: 10px;
+    margin: 20px;
+   
+}
+
+  .feature-box >img {
+      width: 30%;
+      height: 30%;
+      padding: 10px;
+      margin: 10px;
+      z-index: 10;
+
+  }
+
+  h4 {
+      font-family:  'Montserrat', sans-serif;
+      font-weight: 900;
+  }
+
+/* PACKAGES */
+
+#packages {
+margin: 10px ;
+padding: 20px;
+height: auto;
+background-image: url("../images/svg.png");
+background-color: #e7d9ea;
+text-align: center;
+
+}
+.h1-packages {
+
+    color: #19456b;
+    text-align: center;
+    margin: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 8%;
+
+}
+
+.p-packages {
+    font-size: 13px;
+    width: auto;
+    margin: auto;
+    color:#3f464b;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.btn-packages {
+    background-color: #16c79a;
+    border-color: #16c79a;
+    text-align: center;
+    color: aliceblue;
+}
+
+.btn-packages:hover {
+    background-color: #19456b;
+}
+
+  /* ABOUT US */
