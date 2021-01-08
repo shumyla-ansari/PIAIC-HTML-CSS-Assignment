@@ -366,16 +366,24 @@ text-align: center;
 
 .img-portfolio-1 {
     filter: brightness(70%) invert(20%);
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         background-color:rgb(20, 137, 255);
 
       
 }
 .img-portfolio-2{
     filter: brightness(40%) invert(70%);
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
+        background-color:rgb(199, 212, 222);
+        
+      
+}
+
+.img-portfolio{
+        width: 180px;
+        height: 180px;
         background-color:rgb(199, 212, 222);
         
       
@@ -383,14 +391,107 @@ text-align: center;
 
 .img-container {
     padding: 10px 100px;
-    margin: 10px 40px;
+    margin: 10px 80px;
     text-align: center;
 }
 
+/* PROCESS */
 
+#process {
 
+}
 
+.fa-text-process  {
+    color: #16c79a;
+    padding-top: 25px;
+    position: relative;
+}
 
+.progress-ul {
+text-align: center;
+margin: 30px 20px;
+}
+
+.progress-ul li {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative;
+
+   
+}
+
+.progress-ul h6 {
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.progress-ul p {
+    width: auto;
+    margin: auto;
+    color:#8797a2;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: small;
+    padding-top:5px ;
+}
+
+.progress-circle
+{
+
+height: 80px;
+width: 80px;
+    border-radius:50%;
+    border: 2px solid #5b86ab;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    background-color: white;
+
+}
+
+.progress-small-circle {
+    
+        position: absolute;
+        width: 20px;
+        left:40%;
+        top:-10px;
+        border-radius:50%;
+        background-color: yellow;
+
+    
+}
+
+.progress-small-circle span{
+    font-size: small;
+    color: #5b86ab;
+}
+
+li .progress-circle::after {
+    content: '';
+    background: #ccc;
+    height: 5px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    z-index: -1 
+}
+
+ li:last-child .progress-circle::after {
+    content: '';
+    background: rgb(245, 241, 241);
+    height: 5px;
+    width: 10px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    z-index: -1 
+   
+
+}
 
 
 
